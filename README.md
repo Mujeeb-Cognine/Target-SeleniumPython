@@ -24,7 +24,8 @@ SeleniumPython-AnupamaSaranu
 SeleniumPython-ThanushaKotaprolu
 
    **Make sure you use your own branch names, if there is no branch of your name in the above list please contact Mujeeb.**
-   
+11) Make sure you complete the coding for the day.
+(These next steps can be performed after making changes in your code)
 12) Run the **git add .** command (Make sure your changes get stash)
 13) Run the **git commit -m "Your Commit Message"** command (Your Commit Message should be what actual changes you are pushing defined in words) (Make sure your changes get committed)
 14) Run the **git push** command (Make sure your changes get pushed)
