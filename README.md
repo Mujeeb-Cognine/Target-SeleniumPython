@@ -9,7 +9,7 @@
 4) Rename the Project name from the Directory field by removing the "Target-SeleniumPython" from the path and renaming it to **UserName-SeleniumPython**
    example:- C:\Users\Mujeeb Rahaman\Downloads\Mujeeb-SeleniumPython (In Mujeeb system)
 6) Click the Clone button. (Wait till the project opens)
-7) Click on the Terminal side nav.
+7) Open the Terminal from side nav.
    ![image](https://github.com/Mujeeb-Cognine/Target-SeleniumPython/assets/144911937/540cf0f6-2f6c-4d8c-b4da-d6103f2c10e9)
 8) Run the **git fetch** command
 9) Run the **git checkout YourBranchName** command
@@ -26,8 +26,11 @@
 
 
 **Note**:- If you have already made some progress on learning, copy and paste the files into the new cloned project from your old project and push your changes.
+
 If any questions please feel free to message Mujeeb.
+
 **Note**:- Do not try to compare and pull from the GitHub from other Repos and also make sure you are not pushing changes to the main (However the permission is denied).
+
 **Note**:- Don't make any changes in .gitignore file and also README.md files in your branches and also in main.
    
 
