@@ -21,12 +21,12 @@
                       SeleniumPython-AnupamaSaranu
    **Make sure you use your own branch names, if there is no branch of your name in the above list please contact Mujeeb.**
 10) Run the **git add .** command (Make sure your changes get stash)
-11) Run the **git commit -m "Your Commit Message"** command (Your Commit Message should be what actual changes you are pushing defined in words) (Make sure your changes get commit)
+11) Run the **git commit -m "Your Commit Message"** command (Your Commit Message should be what actual changes you are pushing defined in words) (Make sure your changes get committed)
 12) Run the **git push** command (Make sure your changes get pushed)
 
 
 **Note**:- If you have already made some progress on learning, copy and paste the files into the new cloned project from your old project and push your changes.
 If any questions please feel free to message Mujeeb.
-
+**Note**:- Do not try to compare and pull from the GitHub from other Repos and also make sure you are not pushing changes to the main (However the permission is denied).
    
 
