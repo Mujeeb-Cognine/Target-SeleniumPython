@@ -1,4 +1,7 @@
+# Target-SeleniumPython Docs
+
 Install Git and configure username, and email (Make sure Cognine mail is configured)
+
 1.	Open PyCharm (Close the project from file options if any project is already open).
 2.	Click on the Get from VCS button.  
 3.	Paste https://github.com/Mujeeb-Cognine/Target-SeleniumPython.git in the URL field.
