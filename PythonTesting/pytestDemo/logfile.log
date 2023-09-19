@@ -1,0 +1,12 @@
+2023-09-18 16:06:04,660 : INFO : pytestDemo.BaseClass : Mujeeb
+2023-09-18 16:06:04,660 : INFO : pytestDemo.BaseClass : mujeeb.rahaman@cognine.com
+2023-09-18 16:06:24,019 : INFO : test_editProfile : Mujeeb
+2023-09-18 16:06:24,019 : INFO : test_editProfile : mujeeb.rahaman@cognine.com
+2023-09-18 16:07:20,626 : INFO : test_editProfile : Mujeeb
+2023-09-18 16:07:20,626 : INFO : test_editProfile : mujeeb.rahaman@cognine.com
+2023-09-18 16:07:20,631 : DEBUG : pytestDemo.test_logging : A debug statement is executed
+2023-09-18 16:07:20,631 : INFO : pytestDemo.test_logging : Information statement
+2023-09-18 16:07:20,631 : DEBUG : pytestDemo.test_logging : A debug statement is executed
+2023-09-18 16:07:20,631 : WARNING : pytestDemo.test_logging : Something is in warning mode
+2023-09-18 16:07:20,631 : ERROR : pytestDemo.test_logging : A Major error had happened
+2023-09-18 16:07:20,632 : CRITICAL : pytestDemo.test_logging : Critical Issue

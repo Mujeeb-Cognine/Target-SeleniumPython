@@ -1,0 +1,22 @@
+2023-09-18 20:19:34,362 : INFO : test_formSubmission : First Name is Mujeeb
+2023-09-18 20:19:35,130 : INFO : test_formSubmission : First Name is Alia
+2023-09-18 20:19:35,130 : INFO : test_formSubmission : First Name is Alia
+2023-09-18 20:19:38,491 : INFO : test_e2e : Getting all card titles
+2023-09-18 20:19:38,528 : INFO : test_e2e : iphone X
+2023-09-18 20:19:38,540 : INFO : test_e2e : iphone X
+2023-09-18 20:19:38,550 : INFO : test_e2e : iphone X
+2023-09-18 20:19:38,561 : INFO : test_e2e : iphone X
+2023-09-18 20:19:38,674 : INFO : test_e2e : Entering country name as India
+2023-09-18 20:19:44,131 : INFO : test_e2e : Text received from application ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-09-18 20:34:05,698 : INFO : test_formSubmission : First Name is Mujeeb
+2023-09-18 20:34:06,514 : INFO : test_formSubmission : First Name is Alia
+2023-09-18 20:34:06,514 : INFO : test_formSubmission : First Name is Alia
+2023-09-18 20:34:09,678 : INFO : test_e2e : Getting all card titles
+2023-09-18 20:34:09,718 : INFO : test_e2e : iphone X
+2023-09-18 20:34:09,730 : INFO : test_e2e : iphone X
+2023-09-18 20:34:09,740 : INFO : test_e2e : iphone X
+2023-09-18 20:34:09,751 : INFO : test_e2e : iphone X
+2023-09-18 20:34:09,850 : INFO : test_e2e : Entering country name as India
+2023-09-18 20:34:15,340 : INFO : test_e2e : Text received from application ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
