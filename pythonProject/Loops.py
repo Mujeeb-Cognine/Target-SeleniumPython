@@ -43,6 +43,3 @@ print("***************")
 # Skipping the first index
 for m in range(10):
     print(m)
-
-
-
