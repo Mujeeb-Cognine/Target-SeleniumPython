@@ -13,7 +13,11 @@ del values[2]  # Deleting the value
 
 # Tuple - Same as LIST datatype but immutable.We cannot update the value and use ()
 
-val=(1,3,"Anu",9,10)
+val = (1, 3, "Anu", 9, 10)
+mylist = list(val)
+print(mylist)
+mylist[2] = "demo"
+print(mylist)
 print(val[0])  # It will display based on index value
 
 # Dictionary is key value pair form.
