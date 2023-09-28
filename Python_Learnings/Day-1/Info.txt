@@ -1,0 +1,3 @@
+#Donot keep unccessary spaces as python throws indentation error
+#Syntax error is when syntax of code is incomplete
+#Code intelligence make it enable from setting of IDE   , so that it shows the errors
