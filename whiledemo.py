@@ -1,0 +1,55 @@
+# it = 7
+#
+# while it > 0:
+#     print(it)
+#     it = it-1
+# print("While loop is exicuted")
+
+
+# print("*****************")
+#
+# # break
+#
+# it = 10
+#
+# while it>0:
+#     if it == 7:
+#         break
+#     print(it)
+#
+#     it = it - 1
+#
+# print("*****************")
+
+# continue
+
+# it = 10
+#
+# while it>1:
+#     if it == 9:
+#         it = it - 1
+#         continue
+#     if it == 3:
+#         break
+#     print(it)
+#
+#     it = it-1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
