@@ -18,4 +18,3 @@ while line != "":
 
 
 file.close()
-
