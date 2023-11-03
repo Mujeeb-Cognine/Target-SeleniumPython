@@ -35,8 +35,8 @@ print(message)
 assert "Thank you for your order!" in message
 driver.find_element(By.ID, "back-to-products").click()
 sleep(5)
-message1 = "Automated successfully"
-print(message1)
+message2 = "Automated successfully"
+print(message2)
 
 
 
