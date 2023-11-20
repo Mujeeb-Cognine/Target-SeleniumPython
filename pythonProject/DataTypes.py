@@ -33,5 +33,20 @@ dic["Firstname"] = "Anupama"
 dic["lastname"] = "Saranu"
 print(dic)
 
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+thisset = {"apple", "banana", "cherry", "apple"}
+
+print(thisset)
+
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+
+print(thisset)
+
+thisset = {"apple", "banana", "cherry"}
+
+print(len(thisset))
+set1 = {"abc", 34, True, 40, "male"}
+
 
 
