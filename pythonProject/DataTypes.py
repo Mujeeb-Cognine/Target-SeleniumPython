@@ -49,4 +49,10 @@ print(len(thisset))
 set1 = {"abc", 34, True, 40, "male"}
 
 
+print("Enter your name:")
+x = input()
+print("Hello, " + x)
+
+
+
 

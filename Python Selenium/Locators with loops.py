@@ -17,15 +17,12 @@ driver.find_element(By.NAME, "user-name").send_keys("standard_user")
 driver.find_element(By.NAME, "password").send_keys("secret_sauce")
 driver.find_element(By.NAME, "login-button").click()
 sleep(5)
-# driver.find_element(By.LINK_TEXT, "Sauce Labs Backpack").click()
-# driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
-# sleep(5)
-# driver.find_element(By.CLASS_NAME, "shopping_cart_link").click()
-item = "Sauce Labs Bolt T-Shirt"
+item = ["Sauce Labs Bolt T-Shirt","Sauce Labs Backpack"]
+print(type(item))
 products = driver.find_elements(By.CLASS_NAME, "inventory_item")
 for product_element in products:
     product_name = product_element.find_element(By.CLASS_NAME, "inventory_item_name ").text
-    if product_name == item:
+    if product_name == item[1]:
         addtocart = product_element.find_element(By.CLASS_NAME, "btn_primary")
         addtocart.click()
 sleep(5)
@@ -33,12 +30,12 @@ print("checking with cart items")
 cart=driver.find_element(By.CLASS_NAME, "shopping_cart_container")
 cart.click()
 sleep(5)
-cart_items = driver.find_elements(By.CLASS_NAME, "cart_item")
-if len(cart_items) != 1:
-    for item in cart_items:
-        item_name = item.find_element(By.CLASS_NAME, "inventory_item_name").text
-        # driver.execute_script("arguments[0].remove()", item)
-        print(f"Removed {item_name} from cart")
+# cart_items = driver.find_elements(By.CLASS_NAME, "cart_item")
+# if len(cart_items) != 1:
+#     for item in cart_items:
+#         item_name = item.find_element(By.CLASS_NAME, "inventory_item_name").text
+#         # driver.execute_script("arguments[0].remove()", item)
+#         print(f"Removed {item_name} from cart")
 driver.find_element(By.ID, "checkout").click()
 sleep(5)
 driver.find_element(By.CSS_SELECTOR, "#first-name").send_keys("Test")
