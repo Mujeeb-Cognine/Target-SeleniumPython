@@ -1,3 +1,19 @@
+try:
+    numerator = 10
+    denominator = 0
+
+    result = numerator / denominator
+
+    print(result)
+except:
+    print("Error: Denominator cannot be 0.")
+
+finally:
+    print("This is finally block.")
+
+
+
+
 ItemInCart = 0
 # 2 items will be added in the cart
 

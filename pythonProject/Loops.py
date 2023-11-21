@@ -53,3 +53,27 @@ for sublist in matrix:
         flatten_matrix.append(val)
 
 print(flatten_matrix)
+
+
+
+for b in range(5):
+    if b == 3:
+        break
+    print(b)
+
+# program to find first 5 multiples of 6
+
+c = 1
+
+while c <= 10:
+    print('6 * ', (c), '=', 6 * c)
+
+    if c >= 5:
+        break
+
+    c = c + 1
+
+for d in range(5):
+    if d == 3:
+        continue
+    print(d)
