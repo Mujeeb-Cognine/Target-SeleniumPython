@@ -39,9 +39,9 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 
-myVariableName = "John" #  Camel case
+myVariableName = "John"  # Camel case
 MyVariableName = "John"  # Pascal Case
-my_variable_name = "John" # Snake Case
+my_variable_name = "John"  # Snake Case
 
 # Many values to Multiple Variables
 x, y, z = "Orange", "Banana", "Cherry"
