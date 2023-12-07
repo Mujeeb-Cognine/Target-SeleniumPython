@@ -24,4 +24,29 @@ def Fibonacci(n):
         return 1
      else:
         return Fibonacci(n - 1) + Fibonacci(n - 2)
+
+
 print(Fibonacci(9))
+
+# Factorial of number
+# 5 * 4 * 3 * 2 * 1=120
+
+
+def factorial(n):
+    return 1 if (n == 1 or n == 0) else n * factorial(n - 1)
+
+
+num = 5
+print("Factorial of", num, "is", factorial(num))
+
+import math
+
+
+def factorial(n):
+    return math.factorial(n)
+
+
+# Driver Code
+num = 5
+print("Factorial of", num, "is",
+      factorial(num))
