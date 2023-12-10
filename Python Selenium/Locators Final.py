@@ -14,11 +14,11 @@ driver.get("https://www.saucedemo.com/")
 # ID, xpath, CSS selector, class name, name, linkText
 #   xpath - //tagname[@attribute='value']
 # CSS - tagname[attribute='value'], #id, .classname
-driver.find_element(By.NAME, "user-name").send_keys("standard_user")
+# driver.find_element(By.NAME, "user-name").send_keys("standard_user")
+driver.find_element(By.XPATH, "//input[@id='user-name']").send_keys("standard_user")
 driver.find_element(By.NAME, "password").send_keys("secret_sauce")
 driver.find_element(By.NAME, "login-button").click()
 sleep(x)
-
 item = ["Sauce Labs Bolt T-Shirt","Sauce Labs Backpack"]
 
 
