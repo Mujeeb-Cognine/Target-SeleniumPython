@@ -1,4 +1,4 @@
-from pythonProject.OOPs import Calculator
+from pythonProject.IntermediateLevel.OOPs import Calculator
 
 
 class ChildImpl(Calculator):
