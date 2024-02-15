@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
 service_obj = Service()
-driver = webdriver.Edge(service=service_obj) #chrome,#FireFox
+driver = webdriver.Chrome(service=service_obj) #chrome,#FireFox
 driver.maximize_window()
 driver.get("https://www.google.com/")
 print(driver.title)

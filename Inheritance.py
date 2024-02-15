@@ -1,6 +1,6 @@
 class Python:
     # attribute and method of the parent class
-    name = ""
+    #name = ""
     def topics(self):
         print("Welcome to Python")
 # inherit from Animal
@@ -17,12 +17,11 @@ labrador.topics()
 # call subclass method
 labrador.intermediate()
 
-
 #Method overriding
 
 class Python:
     # attribute and method of the parent class
-    name = ""
+    #name = ""
     def topics(self):
         print("Welcome to Python")
 # inherit from Animal
@@ -34,11 +33,10 @@ class selenium(Python):
 # create an object of the subclass
 labrador = selenium()
 # access superclass attribute and method
-labrador.name = "Inheritance"
+labrador.name = "Method Overriding"
 labrador.topics()
 
-
-#using super() method
+#using super() method will inherit all the methods and properties from its parent
 
 class Teacher:
     name = ""
