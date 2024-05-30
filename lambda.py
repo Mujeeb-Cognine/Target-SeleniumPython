@@ -76,7 +76,6 @@ def functionA():
 
 
 
-
     return counter
   return functionB
 myfunction = functionA()

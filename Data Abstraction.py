@@ -11,6 +11,7 @@ class Car(ABC):
         pass
     # Create concrete method
     def accelerate(self):
+
         print("speed up ...")
     def break_applied(self):
         print("Car stop")

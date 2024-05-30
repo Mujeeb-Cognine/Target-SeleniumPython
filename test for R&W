@@ -6,3 +6,18 @@ Importing and Reloading Modules
 Creating and Using Modules
 Grouping and Capturing
 Now the file has more content!
+
+
+class SidebarNavigator:
+    def __init__(self, driver):
+        self.driver = driver
+        self.sidenav = None
+    def find_sidenav(self):
+        self.sidenav = self.driver.find_element(By.CLASS_NAME, "sidenav")
+
+    def click_on_option(self, option_text):
+        if self.sidenav is None:
+            self.find_sidenav()
+        option = self.sidenav.find_element(By.XPATH, "//div[@data-cat-id='child_of_951'], 'Dental Hygiene ')]")
+        option.click()
+    time.sleep(3)

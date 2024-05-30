@@ -36,3 +36,29 @@ except NoAlertPresentException:
 driver.quit()
 
 
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import Alert
+
+# driver = webdriver.Chrome() or any other browser
+
+wait = WebDriverWait(Alert.driver, 10)
+
+# Dismiss an alert
+alert = wait.until(EC.alert_is_present())
+alert.dismiss()
+
+# Accept a confirmation dialog
+wait.until(EC.visibility_of_element_located((By.ID, "confirm-dialog")))
+alert = Alert.driver.switch_to.alert
+alert.accept()
+
+# Send text to a prompt dialog and accept it
+wait.until(EC.visibility_of_element_located((By.ID, "prompt-dialog")))
+alert = Alert.driver.switch_to.alert
+alert.send_keys("Enter the text")
+alert.accept()
+
+
