@@ -45,9 +45,7 @@ print(sum)          # Output is 193
 
 # Find the maximum element in a list using lambda and reduce() function
 import functools
-lis = [1, 3, 5, 6, 10, ]
-print("The maximum element of the list is : ", end="")
-print(functools.reduce(lambda a, b: a if a > b else b, lis))    # Output is The maximum element of the list is : 6
+ # Output is The maximum element of the list is : 6
 
 from functools import reduce
 # Here's a list of strings
