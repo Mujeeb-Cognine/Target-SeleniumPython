@@ -122,15 +122,15 @@ address_input = driver.find_element(By.ID,"address")
 #address_input.clear()# Clear any pre-filled text (if any)
 address= driver.find_element(By.XPATH, '//*[@id="address"]')
 address.send_keys('23 Main St, Hilton Head Island, SC, USA')
-# city_input = driver.find_element(By.ID,"city")
-# city_name = "New York"
-# city_input.send_keys(city_name)
-# state_input = driver.find_element(By.ID,"state")
-# state_name = "California"
-# state_input.send_keys(state_name)
-# zip_code_input = driver.find_element(By.ID,"zipCode")
-# zip_code = "90001 "  # Replace with the actual zip code
-# zip_code_input.send_keys(zip_code)
+city_input = driver.find_element(By.ID,"city")
+city_name = "New York"
+city_input.send_keys(city_name)
+state_input = driver.find_element(By.ID,"state")
+state_name = "California"
+state_input.send_keys(state_name)
+zip_code_input = driver.find_element(By.ID,"zipCode")
+zip_code = "90001 "  # Replace with the actual zip code
+zip_code_input.send_keys(zip_code)
 select_element = driver.find_element(By.ID,"asceEdition")
 # Create a Select object using the select element
 select = Select(select_element)
